@@ -12,7 +12,7 @@ export function Home() {
     const data = {
       id: new Date().getTime(),
       title: newTaskTitle,
-      done: true,
+      done: false,
     };
 
     setTasks([...tasks, data]);
